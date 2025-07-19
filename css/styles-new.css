@@ -1217,7 +1217,7 @@ h1 {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/jpg/people-office.jpg);
+      url(../images/jpg/people-office@2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1783,7 +1783,7 @@ h1 {
     background-color: #404bbf;
   }
 
-  .solution {
+  /* .solution {
     max-width: 1439px;
     padding: 112px 0;
     background-image: linear-gradient(
@@ -1805,7 +1805,7 @@ h1 {
         ),
         url(../images/people-office.jpg);
     }
-  }
+  } */
   h1 {
     max-width: 496px;
     font-size: 56px;
@@ -1977,6 +1977,16 @@ h1 {
     background-position: center;
     background-size: cover;
   }
+  @media (min-resolution: 192dpi) {
+    .solution {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/jpg/people-office@2x.jpg);
+    }
+  }
+
   h1 {
     margin: 0 auto 48px auto;
   }
